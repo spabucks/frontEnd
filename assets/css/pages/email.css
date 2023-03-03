@@ -1,0 +1,67 @@
+.email-body {
+  padding: 20px 20px;
+}
+
+.main-email-title{
+  font-size: 1.4rem;
+
+}
+
+.email-back{
+  width: 20px;
+}
+
+.email-back img{
+  width: 100%;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  color: #a89e9e;
+}
+
+  
+.main-eemm-submit button{
+  width: 90%;
+  height: 60%;
+  padding: 0px;
+  background-color: #01A862;
+  border: none;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.agree-check-all input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: center;
+  margin-right: 10px;
+}
+
+.main-email-submit{
+    background-color: rgba(255, 255, 255, 0.893);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    -webkit-box-shadow: -2px 9px 23px -8px #000000; 
+    box-shadow: -2px 9px 23px -8px #000000;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.main-email-submit button {
+  width: 90%;
+  height: 60%;
+  padding: 0px;
+  background-color: #01A862;
+  border: none;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  font-weight: 800;
+
+}

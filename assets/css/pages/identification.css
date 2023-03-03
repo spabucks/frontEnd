@@ -1,5 +1,142 @@
-.main-identification-img img{
-  width: 100px;
-  height:100px;
-  padding-left: 20px;
+.agree-container {
+  width: 100%;
+  padding: 16px 0px;
+}
+
+.agree-close {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.agree-close img {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  width: 24px;
+  height: auto;
+}
+
+.agree-step {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.agree-step ul {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.agree-step ul li {
+  text-align: center;
+  vertical-align: center;
+  list-style: none;
+  background-color: white;
+  width: 16px;
+  height: 16px;
+  border: thin solid #333;
+  border-radius: 10px;
+  font-size: 0.7rem;
+}
+.agree-form .agree-header {
+  padding: 20px 20px;
+  border-bottom: thin solid #c7c7c7;
+}
+.agree-form .agree-title h1 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+
+.agree-check-all {
+  display: flex;
+  align-items: center;
+}
+
+.agree-check-all label {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.agree-check-all input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  vertical-align: center;
+  margin-right: 10px;
+}
+
+.agree-info-wrap {
+  padding: 0px 5px;
+}
+.agree-info-wrap p {
+  font-size: 0.8rem;
+  line-height: 0.8;
+  color: #888;
+}
+
+.agree-body {
+  padding: 20px 20px;
+}
+
+.agree-body-form-input {
+  padding: 10px 0px ;
+  border-bottom: thin solid #c7c7c7;
+  
+}
+
+.agree-body-form-input input, .agree-body-form-input select {
+  height: 30px;
+  border: none;
+}
+
+.agree-body-form-input input::placeholder {
+  font-size: 1.2rem;
+  color: #c7c7c7;
+}
+
+.agree-body-form-input .birth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.agree-body-form-input .mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.agree-body-form-input .mobile select {
+  font-size: 1.2rem;
+  width: 80px;
+}
+
+.main-agree-submit{
+  background-color: rgba(255, 255, 255, 0.893);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    -webkit-box-shadow: -2px 9px 23px -8px #000000; 
+    box-shadow: -2px 9px 23px -8px #000000;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+.main-agree-submit button{
+  width: 90%;
+  height: 60%;
+  padding: 0px;
+  background-color: #01A862;
+  border: none;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  font-weight: 800;
 }

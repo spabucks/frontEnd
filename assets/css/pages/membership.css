@@ -1,5 +1,6 @@
 .main membership-section{
   margin-top: 60;
+  height: 200px;
 }
 
 .main membership-title{
@@ -22,11 +23,20 @@
   width: 20px;
   margin: 20px;
 }
-.main-membership-title h1{
-  width: 60%;
-  margin: 30px 0px 30px 0px;
-  padding-left: 60px;
+.main-membership-submit{
+  background-color: rgba(255, 255, 255, 0.893);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    -webkit-box-shadow: -2px 9px 23px -8px #000000; 
+    box-shadow: -2px 9px 23px -8px #000000;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+
 }
+
 .main-membership-submit button {
   width: 90%;
   height: 60%;
@@ -47,12 +57,16 @@
 
 .main-membership-section h1{
   width: 50%;
-  margin: 30px 0px 300px 0px;
+  margin: 30px 0px 100px 0px;
   padding-left: 30px;
   font-weight: 500;
   font-size: 2rem;
 }
+.agree {
+  height: 40px;
+  font-size: 20px;
 
+}
 .main-membership-section input[type="checkbox"]{
   border-radius: 50px;
   width: 1rem;
