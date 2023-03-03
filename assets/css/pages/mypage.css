@@ -134,7 +134,7 @@ header {
   color: grey;
 }
 .main-service {
-  background-color: rgba(217, 217, 217, 0.969);
+  background-color: var(--color-brightgrey-background);
 }
 .main-service-title {
   padding: 40px 0px 20px 20px;
