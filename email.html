@@ -2,40 +2,73 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StarBucks Clone Site">
+    <meta name="keywords" content="StarBucks, Clone, Site">
+    <meta name="student" content="popokim">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-  <title>이메일</title>
+    <title>이메일</title>
 </head>
 
 <body>
-  <div class="container">
-    <div class="email-back">
-      <img src="assets/images/icons/back.svg" />
-    </div>
-  </div>
-  <class="main-email-title">
-    <h1>이메일을 <br />입력해 주세요.</h1>
-    <div class="email-body-form-input">
-      <div class="mail data">
-        <input type='text' placeholder="">
-        <p>@</p>
-        <select id="email-data" name="email-data-input">
-          <option value="직접 입력"><selected>직접 입력</option>
-          <option value="naver.com">"naver.com"</option>
-          <option value="gmail.com">gmail.com</option>
-          <option value="hanmail.net">hanmail.net</option>
-          <option value="nate.com">nate.com</option>
-        </select>
+    <div class="check-stepline-container">
+        <div class="check-stepline-back">
+            <img src="assets/images/icons/left-chevron.svg" />
+            <div class="check-stepline-number">
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+            </div>
         </div>
-      <div class="main-email-submit">
-      <button type="submit">다음</button>
+        <form class="emai form">
+            <div class="email header">
+                <div class="email-title">
+                    <div class="main-email-title">
+                        <h1>이메일을 <br />입력해 주세요.</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="email-body">
+                <div class="email-body-form">
+                    <div class="email-body-form-input">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="mail-ac">
+                    <p>@</p>
+                </div>
+                <div class="email-body-form-input">
+                    <div class="e-data">
+                        <select id="email-data" name="email-data-input">
+                            <option value="직접 입력">
+                                <selected>직접 입력
+                            </option>
+                            <option value="naver.com">naver.com</option>
+                            <option value="gmail.com">gmail.com</option>
+                            <option value="hanmail.net">hanmail.net</option>
+                            <option value="nate.com">nate.com</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="e-warning">
+                <p>&bull; 스타벅스 코리아의 새로운 서비스와 최신 이벤트 정보를 이메일로 보내드려요.</p>
+                <p>&bull; 주요 공지사항 및 이벤트 당첨안내 등 일부 소식은 수신동의 여부에 관계없이 발송됩니다.</p>
+            </div>
+            <div class="main-email-submit">
+                <button type="submit">다음</button>
+            </div>
+
+        </form>
     </div>
-      </div>
-    </form>
-    
+    </div>
 </body>
 
 </html>

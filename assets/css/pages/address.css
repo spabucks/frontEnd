@@ -1,0 +1,20 @@
+.main-address-title {
+  font-size: 1.3rem;
+  margin-top: 70px;
+  padding: 5px 20px;
+
+}
+
+.address-body {
+
+  padding: 10px 10px;
+}
+
+
+.address-resister{
+  
+  text-align: center;
+  padding : 240px 0;
+  font-weight: 550;
+  font-size: 1.1rem;
+}

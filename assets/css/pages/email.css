@@ -1,26 +1,103 @@
-.email-body {
-  padding: 20px 20px;
-}
 
-.main-email-title{
+
+.main-email-title h1 {
   font-size: 1.4rem;
-
+  font-weight: 540;
 }
 
-.email-back{
-  width: 20px;
-}
-
-.email-back img{
+.check-stepline-back {
   width: 100%;
   height: 24px;
   display: flex;
   justify-content: center;
-  color: #a89e9e;
+
 }
 
+.check-stepline-back img {
   
-.main-eemm-submit button{
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  width: 24px;
+  height: auto;
+  color: #a89e9e
+
+}
+
+
+
+.main-email-title {
+  padding: 30px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.email-body {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  border-bottom: solid 1px rgb(178, 178, 178);
+  margin: 0px 30px;
+}
+
+
+.mail-ac {
+
+  width: 30%;
+  font-size: 1.4rem;
+  color: #7a7777;
+}
+
+.email-body-form-input input {
+
+  width: 100%;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+}
+
+.email-body-form-input input::placeholder {
+  font-size: 1.2rem;
+  color: #c7c7c7;
+  padding: 30px 0px;
+
+}
+
+.email-body-form-input input,
+.email-body-form-input select {
+  height: 30px;
+  border: none;
+  font-size: 1.2rem;
+  color: #b2b1b1;
+
+}
+
+.email-body-form-input .email select {
+  font-size: 1.3rem;
+  width: 100px;
+}
+
+
+.mail-body-form-input .mail-ac {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.agree-body-form-input .e-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  font-size: 1.4rem;
+}
+
+
+.main-eemm-submit button {
   width: 90%;
   height: 60%;
   padding: 0px;
@@ -39,17 +116,25 @@
   margin-right: 10px;
 }
 
-.main-email-submit{
-    background-color: rgba(255, 255, 255, 0.893);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10%;
-    -webkit-box-shadow: -2px 9px 23px -8px #000000; 
-    box-shadow: -2px 9px 23px -8px #000000;
-    position:fixed;
-    bottom: 0;
-    width: 100%;
+.e-warning {
+  font-size: 0.8rem;
+  padding: 10px 20px;
+  color: #7a7777
+}
+
+
+
+.main-email-submit {
+  background-color: rgba(255, 255, 255, 0.893);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  -webkit-box-shadow: -2px 9px 23px -8px #000000;
+  box-shadow: -2px 9px 23px -8px #000000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 
 }
 
