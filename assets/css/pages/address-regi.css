@@ -18,7 +18,9 @@
   border-bottom: thin solid #c7c7c7;
   margin: 15px;
   margin-bottom: 10px;
+  width: -webkit-fill-available;
 }
+
 
 
 .address-form-box2 {
@@ -73,11 +75,12 @@
   font-size: 1rem;
   font-weight: 400;
   color: #1f1e1e;
- 
+}
 
 .email-body-form-input {
 
-  padding: 0px 10px;
+  padding: 0px 12px;
+  
 }
 
 .address-body-form-input .memo {
