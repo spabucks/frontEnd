@@ -1,282 +1,584 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="StarBucks Clone Site">
-  <meta name="keywords" content="StarBucks, Clone, Site">
-  <meta name="author" content="Jason Ahn">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <title>main page</title>
-</head>
-<body>
-    <div class="container">
-      <header>
-        <div class="header-top">
-          <div class="menu-icon">
-            <img src="assets/images/icons/menu.svg" alt="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="StarBucks Clone Site" />
+    <meta name="keywords" content="StarBucks, Clone, Site" />
+    <meta name="author" content="Jason Ahn" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>main page</title>
+  </head>
+  <body>
+    <header>
+      <div class="main-header-top">
+        <div class="main-header__menu-icon">
+          <img src="assets/images/icons/menu.svg" alt="" />
+        </div>
+        <h1>온라인 스토어</h1>
+        <nav>
+          <ul>
+            <li><img src="assets/images/icons/search.svg" /></li>
+            <li><img src="assets/images/icons/shopping-cart.svg" /></li>
+            <li><img src="assets/images/icons/user.svg" /></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main-header-bottom border-under">
+        <nav>
+          <ul>
+            <li>메인</li>
+            <li class="active">기획전</li>
+            <li>베스트</li>
+            <li>마이페이지</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="main-page-banner">
+      <img src="assets/images/banner/banner01.png" alt="메인페이지배너" />
+    </section>
+    <section class="slide-circle-product-lists">
+      <div>
+        <h3 class="slide-circle-product__main-title">TREND TAG</h3>
+        <div class="slide-circle-product-list">
+          <div class="slide-circle-product-itemlist">
+            <div class="slide-circle-product-item__img">
+              <img
+                class="slide-circle-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-circle-product-item-title">바리스타 춘식</div>
           </div>
-          <h1>온라인 스토어</h1>
-          <nav>
-            <ul>
-              <li><img src="assets/images/icons/search.svg"></li>
-              <li><img src="assets/images/icons/shopping-cart.svg"></li>
-              <li><img src="assets/images/icons/user.svg"></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="header-bottom">
-          <nav>
-            <ul>
-              <li class="active"><a href="index.html">메인</a></li>
-              <li><a href="event.html">기획전</a></li>
-              <li><a href="">베스트</a></li>
-              <li><a href="">마이페이지</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-    <section id="event-banner">
-      <div class="event-banner">
-        <div class="event-banner__item">
-          <div class="event-banner__item__img">
-            <img class="main-item-img" src="assets/images/banner/banner01.png" width="100%" height="100%" alt="">
+
+          <div class="slide-circle-product-itemlist">
+            <div class="slide-circle-product-item__img">
+              <img
+                class="slide-circle-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-circle-product-item-title">리드</div>
+          </div>
+
+          <div class="slide-circle-product-itemlist">
+            <div class="slide-circle-product-item__img">
+              <img
+                class="slide-circle-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-circle-product-item-title">리유저블</div>
+          </div>
+
+          <div class="slide-circle-product-itemlist">
+            <div class="slide-circle-product-item__img">
+              <img
+                class="slide-circle-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-circle-product-item-title">케이스</div>
+          </div>
+
+          <div class="slide-circle-product-itemlist">
+            <div class="slide-circle-product-item__img">
+              <img
+                class="slide-circle-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-circle-product-item-title">핸디 데스크</div>
           </div>
         </div>
       </div>
     </section>
-    <section id="recommand-md" class="boder-under">
+    <section class="slide-square-product-lists">
       <div>
-        <h3>미리 만나는 봄, 체리블라썸 MD 🌸</h3>
-        <div class="recommand-product-list">
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="23 SS 체리 밸류 로맨틱 텀블러 355ml">
+        <h3 class="slide-square-product__main-title">Cherry Blossom 🌸</h3>
+        <div class="slide-square-product-list">
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
             </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
             </div>
           </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
             </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
             </div>
           </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
             </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
             </div>
           </div>
         </div>
       </div>
-
-
-      <div>
-        <h3>미리 만나는 봄, 체리블라썸 MD 💜 </h3>
-        <div class="recommand-product-list">
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="23 SS 체리 밸류 로맨틱 텀블러 355ml">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      
-      <div>
-        <h3>스타벅스 케이크 🍰</h3>
-        <div class="recommand-product-list">
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="23 SS 체리 밸류 로맨틱 텀블러 355ml">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new hidden-item">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new hidden-item">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new hidden-item">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-          <div class="recommand-product-item">
-            <div class="recommand-product-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="">
-            </div>
-            <div class="recommand-product-item__info">
-              <p class="item-new">New</p>
-              <p class="item-title">23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p class="item-price"><span>32,000</span>원</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <div>
-        <h3>바리스타 춘식 MD 💛</h3>
-        <div class="recommand-barista-list">
-          <div class="recommand-barista-item">
-            <div class="recommand-barista-item__img">
-              <img class="item-img" src="assets/images/products/01.png" alt="23 SS 체리 밸류 로맨틱 텀블러 355ml">
-            </div>
-            <div class="recommand-barista-item__info">
-              <p>23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-              <p><strong>32,000</strong>원</p>
-            </div>
-          </div>
-         </div>
-      </div>
-      <div class="recommand-barista-list">
-        <div class="recommand-barista-item">
-          <div class="recommand-barista-item__img">
-            <img class="item-img" src="assets/images/products/01.png" alt="23 SS 체리 밸류 로맨틱 텀블러 355ml">
-          </div>
-          <div class="recommand-barista-item__info">
-            <p>23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-            <p><strong>32,000</strong>원</p>
-          </div>
-        </div>
-       </div>
-       <div class="recommand-barista-list">
-        <div class="recommand-barista-item">
-          <div class="recommand-barista-item__img">
-            <img class="item-img" src="assets/images/products/01.png" alt="23 SS 체리 밸류 로맨틱 텀블러 355ml">
-          </div>
-          <div class="recommand-barista-item__info">
-            <p>23 SS 체리 밸류 로맨틱 텀블러 355ml</p>
-            <p><strong>32,000</strong>원</p>
-          </div>
-        </div>
-       </div>
-    </div>
-    </div>
     </section>
+    <section class="slide-square-product-lists">
+      <div>
+        <h3 class="slide-square-product__main-title">herry Blossom 💜</h3>
+        <div class="slide-square-product-list">
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
 
-  </div>
-</body>
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slide-square-product-lists">
+      <div>
+        <h3 class="slide-square-product__main-title">Starbucks Cake 🍰</h3>
+        <div class="slide-square-product-list">
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new product-item-new-hidden">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new product-item-new-hidden">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slide-square-product-lists">
+      <div>
+        <h3 class="slide-square-product__main-title">Online Only 📌</h3>
+        <div class="slide-square-product-list">
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+
+          <div class="slide-square-product-itemlist">
+            <div class="slide-square-product-item__img">
+              <img
+                class="slide-square-item-img"
+                src="assets/images/products/01.png"
+                alt="23 SS 체리 밸류 로맨틱 텀블러 355ml"
+              />
+            </div>
+            <div class="slide-square-product-item__info">
+              <p class="product-item-new">New</p>
+              <p class="slide-square-product-item-title">
+                23 SS 체리 밸류 로맨틱 텀블러 355ml
+              </p>
+              <p class="slide-square-product-item-price">
+                <span>32,000</span>원
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
