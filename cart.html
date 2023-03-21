@@ -1,104 +1,106 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="StarBucks Clone Site" />
-    <meta name="keywords" content="StarBucks, Clone, Site" />
-    <meta name="author" content="Jason Ahn" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>장바구니</title>
-  </head>
-  <body>
-    <header>
-      <div class="sub-header">
-        <img src="assets/images/icons/left-chevron.svg" />
-        <h1 class="sub-header-title">온라인 스토어</h1>
-        <img src="assets/images/icons/close.svg" />
-      </div>
-    </header>
 
-    <section class="section-cart-top">
-      <h2>장바구니</h2>
-        <div class="check-row">
-          <div class="check-left">
-            <input type="checkbox" id="total-product-check" />
-            <label for="total-product-check">전체 선택</label>
-          </div>
-          <div class="check-right">
-            <button><span>선택삭제</span></button>
-            <button>전체삭제</button>
-          </div>
-        </div>
-        <div class="check-row">
-          <div class="check-left">
-            <input type="checkbox" id="general-product-check" />
-            <label for="general-product-check">일반 상품</label>
-          </div>
-        </div>
-        <div class="check-row">
-          <div class="check-left">
-            <input type="checkbox" id="product-check" />
-            <label for="product-check"></label>
-          </div>
-          <div class="product-cart-view">
-            <div class="product-view">
-              <img
-                src="assets/images/banner/스타벅스_우산.jpg"
-                alt="상품이미지"
-              />
-              <div class="product-view-info">
-                <p>23 체리블라썸 로맨틱 문 장우산</p>
-                <p><span>23,000</span>원</p>
-              </div>
-              <img src="assets/images/icons/close.svg" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StarBucks Clone Site">
+    <meta name="keywords" content="StarBucks, Clone, Site">
+    <meta name="author" content="Jason Ahn">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>장바구니</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="cart-header-top">
+                <i class="fa-solid fa-chevron-left fa"></i>
+                <h1 class="cart-header-title">온라인 스토어</h1>
+                <i class="fa-solid fa-xmark fa"></i>
             </div>
-            <div class="product-view-count-info">
-              <div class="product-view-count">수량: 1개</div>
-              <div class="product-view-charge-info">
-                <p class="product-view-charge__title">주문금액</p>
-                <p class="product-view-charge"><span>23,000</span>원</p>
-              </div>
-              <div class="product-view-change_buy__btn">
-                <button type="button">주문 수정</p>
-                <button type="button">바로 구매</p>
-              </div>
+        </header>
+        <section class="section-top">
+            <h2>장바구니</h2>
+            <div class="check-row">
+                <div class="check-left">
+                    <input type="checkbox" id="total-check">
+                    <label for="total-check">전체 선택</label>
+                </div>
+                <div class="check-right">
+                    <button><span>선택삭제</span></button>
+                    <button>전체삭제</button>
+                </div>
             </div>
-          </div>
+            <div class="check-row">
+                <div class="check-left">
+                    <input type="checkbox" id="total-check">
+                    <label for="total-check">일반 상품</label>
+                </div>
+            </div>
+            <div class="check-row">
+                <div class="check-left">
+                    <input type="checkbox" id="total-check">
+                </div>
+                <div class="product-view">
+                    <img src="assets/images/banner/스타벅스_우산.jpg" alt="상품이미지">
+                    <div class="product-view-info">
+                        <p>23 체리블라썸 로맨틱 문 장우산</p>
+                        <p><span>23,000</span>원</p>
+                    </div>
+                    <i class="fa-solid fa-xmark fa"></i>
+                    <div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="check-row">
+            <input type="checkbox" id="select-check">
+            <label for="select-check">일반선택</label>
         </div>
-      </section>
-      <section class="section-cart-middle border-top">
-        <div>
-            <p>상품 1건 23,000원 배송비 3,000원 = 총 26,000원</p>
-            <p>7,000원 더 담으면 무료배송</p>
-        </div>
-        <button type="button">더 담으러 가기</button>
-      </section>
-      <section class="section-cart-bottom">
+        <div class="select-product">
+            <div class=select-checkbox> 
+                <input type="checkbox" id="product-check">
+                <label for="product-check"></label>
+            </div>
+            <div class="cart-product-info">
+                <div class="cart-product-infomation">
+                    <img src="assets/images/banner/스타벅스_우산.jpg" alt="상품이미지">
+                    <div class="product-title-price">
+                        <div class="product-title">23 체리블라썸 로맨틱 문 장우산</div>
+                        <p class="item-price"><span>23,000</span>원</p>
+                    </div>
+                </div>
+                <div class="product-count">수량: 1개</div>
+                <div class="charge-title-sum">
+                    <p class="charge-title">주문금액</p>
+                    <p class="item-price"><span>23,000</span>원</p>
+                </div>
+                <div class="btn-change-buy">
+                    <p>주문 수정</p>
+                    <p>바로 구매</p>
+                </div>
+            </div>
+           
+            </div> -->
+
+        </section>
+        <!--
+    <section class="section-bottom">
         <h4>총 주문 금액</h4>
-        <div class="section-cart__product">
+        <div>
             <div><span>상품금액</span><p>0원</p></div>
             <div><span>할인금액</span><p>0원</p></div>
             <div><span>배송비</span><p>0원</p></div>
         </div>
-        <div class="section-cart__total-charge  border-top">
+        <div>
             <div><span>최종 결제 금액</span><p>0원</p></div>
         </div>
-        <div class="section-cart__total-charge__info">
-            <p>장바구니에는 최대  20개까지 담을 수 있으며, 담긴 상품은 최대 2개월간 보관됩니다.<br/>
-            가격,옵션 등 정보가 변경된 경우 주문이 불가할 수 있습니다.</p>
-        </div>
-      </section>
-      <footer class="footer-product-cart border-top">
-        <div class="footer-product-cart__info">
-            <div>총 1건/20건</div>
-            <p><span>26,000</span>원</p>
-        </div>
-        <div class="footer-charge-total-btn">
-            <button type="button">선물하기</button>
-            <button type="button">구매하기</button>
-        </div>
-      </footer>
-  </body>
+    </section>
+    -->
+    </div>
+    <script src="https://kit.fontawesome.com/c79e745bc5.js" crossorigin="anonymous"></script>
+</body>
+
 </html>

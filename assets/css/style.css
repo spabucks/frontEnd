@@ -8,6 +8,18 @@
 @import url(./pages/login.css);
 @import url(./pages/product.css);
 @import url(./pages/search.css);
+
 @import url(./pages/cake.css);
 @import url(./pages/handydesk.css);
 @import url(./pages/best-cake.css);
+
+@import url(./pages/membership.css);
+@import url(./pages/identification.css);
+@import url(./pages/nick.css);
+@import url(./pages/idfw.css);
+@import url(./pages/email.css);
+@import url(./pages/m-completed.css);
+@import url(./pages/address.css);
+@import url(./pages/address-regi.css);
+@import url(./pages/payment.css);
+
