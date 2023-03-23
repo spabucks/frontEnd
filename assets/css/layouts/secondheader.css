@@ -7,14 +7,14 @@ header {
   z-index: 100;
 }
 
-.header-top {
+.main-header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
   height: 60px;
 }
-.header-top .menu-icon {
+.main-header-top .menu-icon {
   width: 10%;
 }
 .header-top h1 {
