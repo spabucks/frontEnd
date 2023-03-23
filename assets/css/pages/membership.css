@@ -57,16 +57,38 @@
 
 .main-membership-section h1{
   width: 50%;
-  margin: 30px 0px 100px 0px;
+  margin: 30px 0px 50px 0px;
   padding-left: 30px;
   font-weight: 500;
   font-size: 1.7rem;
 }
 
+
+.nick-header .nick-check-all{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.m-check-all{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.member-checkbox-form{
+
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+
 .m-check{
 
   position: relative;
-  line-height: 200%; 
+  line-height: 250%; 
   top: 80px;
   padding: 10px 30px 30px 20px
   
@@ -116,4 +138,7 @@
 
 background: #01A862;
 border-color: #fbf7f7;
+}
+.agree-check-form{
+  height: 500px;
 }

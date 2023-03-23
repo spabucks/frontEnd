@@ -2,56 +2,11 @@
   padding: 20px 20px;
 }
 
-.check-stepline-container {
-  width: 100%;
-  padding: 16px 0px;
-}
-
-.check-stepline-close {
-  width: 100%;
-}
-
-.check-stepline-close img {
-  position: fixed;
-  left: 20px;
-  top: 20px;
-  width: 24px;
-  height: auto;
-  color: #a89e9e;
-}
 
 
-.check-stepline-number {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.check-stepline-number p {
-  text-align: center;
-  vertical-align: center;
-  list-style: none;
-  background-color: white;
-  width: 22px;
-  height: 22px;
-  border: thin solid #333;
-  border-radius: 15px;
-  font-size: 0.85rem;
-  line-height: 1.6;
-}
-
-.check-stepline-number p.active {
-  background-color: #333;
-  border: none;
-  color: white;
-}
-
-.check-stepline-number .dash {
-  background-color: #333;
-  height: 1px;
-  width: 10px;
-}
+/*
+여기까지가 스탭 1-2-3 라인입니다.
+*/
 
 .agree-form .agree-header {
   padding: 20px 20px;
@@ -133,16 +88,7 @@
   align-items: center;
 }
 
-.agree-body-form-input .mobile {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.agree-body-form-input .mobile select {
-  font-size: 1.2rem;
-  width: 80px;
-}
+/* 여기서부터 이메일 인증*/
 
 .id-email-body {
 
@@ -153,6 +99,14 @@
   border-bottom: solid 1px #c7c7c7;
   
 }
+
+.id-ematl-total{
+
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .id-mail-ac p{
 
@@ -170,6 +124,7 @@
   border: none;
   outline: none;
 }
+
 
 .id-email-body-form-input input::placeholder {
   font-size: 1.2rem;
@@ -208,12 +163,34 @@
   font-size: 1.4rem;
 }
 
+/* 중복확인 버튼 class 수정*/
 .id-number{
-
+  display: flex;
+  flex-direction:row;
   padding: 10px 0px;
   border-bottom: thin solid #c7c7c7;
 
 }
+
+/* 중복확인 버튼 추가
+.email-check-botton{
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 40px;
+  margin: 13px 10px 0px 20px;
+  width: 170px;
+  font-size: 1rem;
+  border: none;
+  background-color: rgba(0,0,0,0);
+  border-color:rgb(255, 255, 255);
+  color: #b2b1b1;
+}
+*/
+
+
+/*여기까지 이메일 인증*/
 
 .id-warning{
 
@@ -221,28 +198,3 @@
   color: #8d8b8b;;
 }
 
-.main-agree-submit {
-  background-color: rgba(255, 255, 255, 0.893);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10%;
-  -webkit-box-shadow: -2px 9px 23px -8px #000000;
-  box-shadow: -2px 9px 23px -8px #000000;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-
-}
-
-.main-agree-submit button {
-  width: 90%;
-  height: 60%;
-  padding: 0px;
-  background-color: #01A862;
-  border: none;
-  border-radius: 40px;
-  color: rgb(255, 255, 255);
-  font-size: 1.1rem;
-  font-weight: 800;
-}

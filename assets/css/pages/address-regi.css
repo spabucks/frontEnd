@@ -1,7 +1,7 @@
 .address-regi-title {
   font-size: 1.3rem;
-  margin-top: 70px;
-  padding: 5px 25px;
+  margin-top: 60px;
+  padding: 5px 30px;
 
 }
 
@@ -14,32 +14,42 @@
 
 .address-regi-form-input {
 
-  padding: 10px 0px;
+  padding: 15px 0px 0px 0px;
   border-bottom: thin solid #c7c7c7;
-  margin: 15px;
+  margin: 20px;
   margin-bottom: 10px;
   width: -webkit-fill-available;
 }
 
 
-
+/* 우편번호 */
 .address-form-box2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.address-serch{
+/*주소 검색*/
+.address-serch {
+
+  margin-top: 20px;
   height: 40px;
-  width: 120px;
+  margin: 20px 20px 0px 0px;
+  width: 170px;
   border-radius: 20px;
   font-size: 1.1rem;
   color: #01A862;
-  border-color:  #01A862;
-  background-color:rgb(255, 255, 255)
-  
+  border-color: #01A862;
+  background-color: rgb(255, 255, 255)
 }
 
+.address-body-form-input {
+
+  padding: 10px 0px;
+
+}
+
+/*배송메모를 선택해주세요*/
 .address-regi-form-input select {
 
   width: 100%;
@@ -48,7 +58,7 @@
 
 }
 
-
+/*배송 메모 전체, 배송 메모 선택*/
 .address-regi-form-input input,
 .address-regi-form-input select,
 #add-memo {
@@ -57,56 +67,51 @@
   font-weight: bold;
 }
 
+.address-body-form-input .memo select {
+  font-size: 1.1rem;
+  width: 80px;
+}
+
+
+/*배송메모*/
 .s-memo p {
 
   font-size: 0.95rem;
-  margin: 0px 16px;
+  margin: 20px 30px;
+  margin-bottom: 10px;
 }
 
-
-.address-body-form-input {
-
-  padding: 10px 0px;
-
-}
-
-
-.address-regi-form-input input::placeholder {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #1f1e1e;
-}
-
-.email-body-form-input {
-
-  padding: 0px 12px;
-  
-}
-
+/*배송메모 선택*/
 .address-body-form-input .memo {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+
+/*select id*/
 #add-memo {
 
   border-bottom: thin solid #c7c7c7;
-  margin: 0px 10px;
+  margin: 0px 25px;
   width: 100%;
 }
 
-.address-body-form-input .memo select {
-  font-size: 1.1rem;
-  width: 80px;
+
+/* 직접 입력*/
+.address-regi-form-input input::placeholder {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1f1e1e;
 }
 
+/*기본 배송지로 저장*/
 .adress-check-all {
 
   display: flex;
   align-items: center;
-  margin: 10px 10px;
-
+  margin: 10px 25px;
+  margin-bottom: 120px;
 }
 
 .adress-check-all label {

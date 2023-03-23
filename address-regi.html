@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <class="container">
+  <div class="container">
     <header>
       <div class="header-top">
         <h1>배송지 등록</h1>
@@ -23,60 +23,62 @@
     <div class="address-regi-title">
       <h2>배송지 정보</h2>
     </div>
+    <form class="address-regi-form">
+    <div class="address-regi-body"> <!--form이 먼저 오는건가 div가 먼저 오는가-->
 
-    <div class="address-regi-body">
-      <div class="address-regi-form">
-        <div class="address-regi-form-input">
-          <input type='text' placeholder="주소별칭">
-        </div>
-        <div class="address-regi-form-input">
-          <input type='text' placeholder="받는 분 *">
-        </div>
-        <div class="address-form-box2">
-          <div class="address-regi-form-input">
-            <input type='text' placeholder="우편번호 *">
-          </div>
-          <button class="address-serch">
-            주소검색
-          </buttoon>
-        </div>
-        <div class="address-regi-form-input">
-          <input type='text' placeholder="기본주소 *">
-        </div>
-        <div class="address-regi-form-input">
-          <input type='text' placeholder="상세주소 *">
-        </div>
-        <div class="address-regi-form-input">
-          <input type='text' placeholder="연락처1 *">
-        </div>
-        <div class="address-regi-form-input">
-          <input type='text' placeholder="연락처2">
-        </div>
+      <div class="address-regi-form-input">
+        <input type='text' placeholder="주소별칭">
       </div>
-      <div class="s-memo">
-        <p>배송 메모</p>
+      <div class="address-regi-form-input">
+        <input type='text' placeholder="받는 분 *">
       </div>
-      <div class="address-body-form-input">
-        <div class="memo">
-          <select id="add-memo" name="memo-select">
-            <option value="배송 메모를 선택해 주세요." selected>배송 메모를 선택해 주세요.</option>
-            <option value="배송 전 연락 바랍니다.">배송 전 연락 바랍니다.</option>
-            <option value="부재 시 경비실에 맡겨주세요.">부재 시 경비실에 맡겨주세요.</option>
-            <option value="부재 시 문 앞에 놓아주세요.">부재 시 문 앞에 놓아주세요.</option>
-            <option value="부재 시 전화 또는 문자 남겨주세요.">부재 시 전화 또는 문자 남겨주세요.</option>
-            <option value="직접 입력">직접 입력</option>
-          </select>
+      <div class="address-form-box2">
+        <div class="address-regi-form-input">
+          <input type='text' placeholder="우편번호 *">
         </div>
+        <button class="address-serch">
+          주소검색
+        </button>
       </div>
-        <div class="adress-check-all">
-          <input type="checkbox" id="agree" name="agree" />
-          <label>기본 배송지로 저장합니다.</label>
-        </div>
-      
+      <div class="address-regi-form-input">
+        <input type='text' placeholder="기본주소 *">
+      </div>
+      <div class="address-regi-form-input">
+        <input type='text' placeholder="상세주소 *">
+      </div>
+      <div class="address-regi-form-input">
+        <input type='text' placeholder="연락처1 *">
+      </div>
+      <div class="address-regi-form-input">
+        <input type='text' placeholder="연락처2">
+      </div>
     </div>
-    <div class="main-email-submit">
+    </form>
+    
+    <div class="s-memo">
+      <p>배송 메모</p>
+    </div>
+    <div class="address-body-form-input">
+      <div class="memo">
+        <select id="add-memo" name="memo-select">
+          <option value="배송 메모를 선택해 주세요." selected>배송 메모를 선택해 주세요.</option>
+          <option value="배송 전 연락 바랍니다.">배송 전 연락 바랍니다.</option>
+          <option value="부재 시 경비실에 맡겨주세요.">부재 시 경비실에 맡겨주세요.</option>
+          <option value="부재 시 문 앞에 놓아주세요.">부재 시 문 앞에 놓아주세요.</option>
+          <option value="부재 시 전화 또는 문자 남겨주세요.">부재 시 전화 또는 문자 남겨주세요.</option>
+          <option value="직접 입력">직접 입력</option>
+        </select>
+      </div>
+    </div>
+    <div class="adress-check-all">
+      <input type="checkbox" id="agree" name="agree" />
+      <label>기본 배송지로 저장합니다.</label>
+    </div>
+    <div class="main-agree-submit">
       <button type="submit">등록하기</button>
     </div>
+
+  </div>
 </body>
 
 </html>

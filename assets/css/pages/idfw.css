@@ -3,43 +3,18 @@
     margin: 20px;
 }
 
+.idfw-body {
+    padding: 0px 10px;
+}
+
+
 .main-idfw-section h1 {
     font-size: 1.2rem;
     font-weight: bold;
     padding: 10px 20px;
 }
 
-.iden-step {
-    width: 120px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-}
 
-.iden-step ul {
-    width: 100%;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.iden-step ul li {
-    text-align: center;
-    vertical-align: center;
-    list-style: none;
-    background-color: white;
-    width: 16px;
-    height: 16px;
-    border: thin solid #333;
-    border-radius: 10px;
-    font-size: 0.7rem;
-}
-
-.idfw-body {
-    padding: 0px 10px;
-}
 
 .idfw-body-form {
     padding: 20px 10px;
@@ -62,7 +37,6 @@
     font-size: 1.3rem;
 
 }
-
 
 
 
