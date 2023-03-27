@@ -1,0 +1,32 @@
+.change-button-form{
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.change-button{
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px 13px;
+    border-radius: 20px; 
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    color: rgb(136, 136, 136);
+    border-color: rgb(151, 151, 151);
+}
+
+.pay-address-info{
+
+    padding: 20px;
+    font-size: 1.2rem;
+    line-height: 13px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+
+.pay-address-info p{
+
+    line-height: 25px;
+}
