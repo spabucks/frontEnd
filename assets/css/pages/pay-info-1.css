@@ -1,0 +1,179 @@
+.payment-info-title {
+
+  margin-top: 50px;
+  font-size: 0.8rem;
+  padding: 20px;
+}
+
+.pay-info-address {
+
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 13px;
+}
+
+
+/*.pay-info-address{
+
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 13px;
+  margin-top: -40px;
+  margin-bottom: -40px;
+}*/
+
+.pay-info-address-form h1 {
+
+  font-size: 1.3rem;
+  padding: 20px;
+  margin-bottom: -50px;
+}
+
+.pay-info-address p {
+
+  font-size: 1rem;
+  line-height: 22px;
+}
+
+.pay-info-address p:first-child {
+
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+
+.payment-info-wrap-list h2 {
+
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.payment-product-list-form {
+
+  padding: 20px;
+}
+
+
+
+.payment-product-list-form .payment-product-list {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.payment-product-list form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  padding: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 0px 0px 10px 20px;
+}
+
+.payment-product-list-info {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0px 40px 0px 0px;
+}
+
+.red-mug-img {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 130px;
+  height: 140px;
+  border-radius: 10px;
+}
+
+
+.payment-product-list-info p:last-child{
+  
+  display: flex;
+
+}
+
+.payment-total-wrap-list .payment-total-wrap {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-total-wrap {
+
+  display: flex;
+  justify-content: space-between;
+}
+/*
+
+.payment-total-wrap-list {
+
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-bottom: solid 1px #c7c7c7;
+  margin: 0px 30px 0px 20px;
+}
+
+.payment-total-sum-list {
+
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  padding: 20px;
+  font-weight: bold;
+  margin: -20px 0px 0px 0px;
+}
+
+.payment-total-sum {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -40px;
+}*/
+
+.pay-info-btn-list {
+
+  margin: 50px 25px;
+}
+
+.pay-info-btn {
+
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  margin-bottom: 50px;
+  color: #01A862;
+  border-color: #01A862;
+}
+
+.go-main-btn {
+
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 20px;
+  background-color: #01A862;
+  height: 40px;
+  margin-bottom: 50px;
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  /*color :rgb(255, 255, 255);*/
+
+}
