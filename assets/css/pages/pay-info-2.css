@@ -1,0 +1,98 @@
+.payment-info2-form{
+
+  
+  
+}
+
+.payment-info2-list{
+  padding: 10px 10px;
+}
+
+.payment-info2-title{
+
+  margin-top: 50px;
+  font-size: 0.6rem;
+  font-weight: bold;
+  padding: 30px 20px;
+  
+}
+
+.payment-info2-title p{
+
+  font-size: 1rem;
+}
+
+.payment-product-list-info2{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  border-style: solid;
+  border-width:thin;
+  border-color: rgb(160 160 160);
+  border-radius: 10px;
+  margin: 0px 10px 30px 10px;
+
+}
+  
+
+
+.red-mug-img2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+
+
+.payment-total-product p:last-child {
+
+  margin: 20px 20px;
+
+}
+
+
+.payment-total-sum2{
+display: flex;
+align-items: center;
+margin-bottom: -40px;
+}
+
+.payment-total-product-list{
+
+  
+}
+
+.payment-total-product h2{
+font-size: 1rem;
+}
+
+.order-cancle{
+
+  display: flex;
+  text-align: end;
+}
+
+.order-cancle-btn{
+text-align: center;
+font-size: 1rem;
+font-weight: bold;
+padding: 5px 30px;
+border-radius: 20px;
+background-color: rgb(255, 255, 255);
+height: 40px;
+margin-bottom: 50px;
+color: #01A862;
+border-color: #01A862;
+}
+
+/*.pay-address-info{
+
+  background: linear-gradient(#ffffff 94%, rgb(243, 241, 241) 6%);
+}*/ㄴ
