@@ -24,10 +24,13 @@
   margin-bottom: -40px;
 }*/
 
+.pay-info-address-form{
+  padding: 10px 20px;
+}
+
 .pay-info-address-form h1 {
 
   font-size: 1.3rem;
-  padding: 20px;
   margin-bottom: -50px;
 }
 
