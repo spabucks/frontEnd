@@ -3,6 +3,7 @@
   padding: 10px 10px;
 }
 
+/*날짜와 주문번호*/
 .payment-info2-title {
 
   margin-top: 50px;
@@ -17,6 +18,7 @@
   font-size: 1rem;
 }
 
+/*
 .payment-product-list-info2 {
 
   display: flex;
@@ -30,9 +32,9 @@
   border-radius: 10px;
   margin: 0px 10px 30px 10px;
 
-}
+}*/
 
-
+/*사진*/
 
 .red-mug-img2 {
   display: flex;
@@ -45,7 +47,7 @@
 }
 
 
-
+/*
 .payment-total-product p:last-child {
 
   margin: 20px 20px;
@@ -83,7 +85,9 @@
   color: #01A862;
   border-color: #01A862;
 }
+*/
 
+/*상품준비중 상자*/
 .order-product-card-wrap {
   border: thin solid #8d8d8d;
   border-radius: 5px;
@@ -144,13 +148,14 @@
   background-color: rgb(255, 255, 255);
 }
 
+/*흰색 선*/
 .background-border-line {
 
   background: linear-gradient(#ffffff 80%, rgb(243, 241, 241) 20%);
     height: 50px;
 }
 
-
+/*주소*/
 .pay-address-info-step2 {
 
   padding: 20px;
@@ -166,6 +171,7 @@
   margin-top: 10px;
 }
 
+/*주문정보*/
 .pay-order-info-total-step2 {
 
   display: flex;
@@ -184,6 +190,7 @@
   font-weight: bold;
 }
 
+/*주문일시*/
 .pay-order-info-date-step2 {
 
   display: flex;
@@ -304,9 +311,14 @@
 
   display: flex;
   justify-content: space-between;
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: 10px 20px 0px 20px;
   border-bottom: solid 1px #e2e2e2;
+}
+
+.payment-info-wrap-price-form-step2 p:last-child{
+
+  font-weight: bold;
 }
 
 /*상품금액,배송비,신용카드*/
@@ -318,6 +330,11 @@
   font-size: 1rem;
   margin: 0px 20px -10px 20px;
   
+}
+
+.pay-info-order-price-step2 p:last-child{
+
+  font-weight: bold;
 }
 
 
