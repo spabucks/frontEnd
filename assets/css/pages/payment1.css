@@ -1,3 +1,4 @@
+/*헤더부분(공통)
 .header {
     background-color: var(--color-white);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
@@ -7,7 +8,7 @@
     width: 100%;
 }
 
-.header-top {
+.header-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,23 +25,27 @@
     width: 60%;
     text-align: center;
     margin: 0px 30px;
-}
+}*/
+
+/*헤더부분(공통)*/
 
 .main-payment body {
 
     padding: 10px 10px;
 }
 
-.patment-form .payment-header {
+/*.paytment-form .payment-header {
     padding: 20px 20px;
-}
+}*/
 
+/*결제하기*/
 .main-address-title {
     font-size: 1.3rem;
     margin-top: 70px;
     padding: 5px 25px;
 
 }
+
 
 .change-button-form {
     display: flex;
@@ -49,12 +54,13 @@
     padding: 25px;
 }
 
-
+/*배송정보*/
 .change-button-form h3{
 
     font-size: 1.3rem;
 }
 
+/*베송지 등록 버튼*/
 .change-button{
     text-align: center;
     font-size: 1rem;
@@ -66,6 +72,7 @@
     border-color: rgb(151, 151, 151);
 }
 
+/*주소지*/
 .pay-address-info{
 
     padding: 20px;
@@ -75,6 +82,7 @@
     margin-bottom: -40px;
 }
 
+/*상품내역*/
 .pay-address-info p{
 
     line-height: 25px;
@@ -82,7 +90,7 @@
     margin-top: 10px;
 }
 
-
+/*등록된 배송지가 없습니다*/
 .payment-resister {
 
     border: none;
@@ -92,6 +100,7 @@
 
 }
 
+/*배송지 등록*/
 .address-serch {
 
     margin-top: 20px;
@@ -116,24 +125,10 @@
   } */
 
 
-.payment-info-wrap-list p {
+
+/*.payment-info-wrap-list p {
     font-size: 1rem;
-}
-
-
-.payment-right-img {
-    transform: rotate(-91deg);
-    width: 30px;
-    margin: 15px;
-}
-
-.payment-second-img {
-
-    transform: rotate(180deg);
-    width: 30px;
-    margin: 15px;
-}
-
+}*/
 
 .payment-info-wrap-list {
     display: flex;
@@ -145,6 +140,42 @@
     padding: 0px 0px 10px 20px;
 }
 
+.payment-info-wrap-list .payment-info-toggle {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.payment-info-toggle p{
+
+    font-size: 1.2rem;
+}
+
+.red-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+}
+
+
+/* 상품내역 < 부분*/
+.payment-right-img {
+    transform: rotate(-91deg);
+    width: 30px;
+    margin: 15px;
+}
+
+/*쿠폰 및 할인 < 부분*/
+.payment-second-img {
+
+    transform: rotate(180deg);
+    width: 30px;
+    margin: 15px;
+}
+
+/*커티스 쿨릭 레드 머그*/
 .payment-product-wrap-list {
 
     display: flex;
@@ -155,35 +186,15 @@
     margin: 0px 40px 0px 0px;
 }
 
-
-.payment-info-wrap-list .payment-info-toggle {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.payment-info-toggle p{
-d
-    font-size: 1.2rem;
-}
-
-
-.red-img {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80px;
-    height: 80px;
-}
-
+/*쿠폰 및 할인*/
 .coupon-info-wrap-list .payment-info-toggle {
 
     display: flex;
     justify-content: space-between;
 
-
 }
 
+/*결제수단*/
 .coupon-info-wrap-list {
 
     display: flex;
@@ -194,22 +205,24 @@ d
     margin: 0px 0px 0px 20px;
 }
 
-.coupon-product-wrap-list {
+/*.coupon-product-wrap-list {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 1.1rem;
     font-weight: bold;
-}
+}*/
 
+/*
 .pay-agree {
 
     display: flex;
     justify-content: space-between;
 
-}
+}*/
 
+/*스타벅스 카드, 신용카드 */
 .pay-agree-input {
 
     display: flex;
@@ -238,6 +251,14 @@ d
     flex-direction: column;
   }*/
 
+
+/*결제정보
+결제정보~배송비
+할인금액-상품할인
+결제금액-모바일상품권
+최종 결제금액
+*/
+
 .payment-info-wrap-price {
 
     display: flex;
@@ -245,19 +266,26 @@ d
     flex-direction: column;
     font-size: 1.1rem;
     font-weight: bold;
-    border-bottom: solid 1px #e2e2e2;
+    /*border-bottom: solid 1px #e2e2e2;*/
     margin: 10px 20px 0px 20px;
     line-height: 10px;
 }
 
-.payment-info-price title {
+/*.payment-info-price title {
 
     display: flex;
     flex-direction: row;
     align-items: center;
 
-}
+}*/
 
+.payment-info-price-title h4 {
+
+    margin: 20px 0px 20px 0px;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
 
 /*.payment-info-price-title p {
 
@@ -268,16 +296,6 @@ d
 
 }
 */
-.payment-info-price-title h4 {
-
-    margin: 20px 0px 20px 0px;
-    font-size: 1.2rem;
-    font-weight: bold;
-
-}
-
-
-
 
 .pay-info-order-price {
 
@@ -287,27 +305,15 @@ d
     font-size: 1.1rem;
 }
 
-
-
-
-
-/*.pay-info-order-price p:first-child {
-
-    font-size: 1rem;
-}
-
-.pay-info-order-price p:last-child {
-
-    font-size: 1.2rem;
-}*/
-
-.pay-order-price-first {
+*.pay-order-price-first {
 
     display: flex;
     justify-content: space-between;
     font-size: 1.25rem;
     font-weight: bold;
 }
+
+/*최종 결제 금액*/
 
 .final-info-wrap-price {
 
@@ -319,6 +325,7 @@ d
     margin: -20px 0px 0px 0px;
 }
 
+/*상품할인*/
 .payment-info-wrap-price-form {
 
     display: flex;
@@ -326,7 +333,7 @@ d
     font-size: 1.1rem;
 }
 
-
+/*최종 결제 금액 26,000원*/
 .final-info-price-title {
     display: flex;
     justify-content: space-between;
@@ -334,11 +341,13 @@ d
     margin-bottom: -40px;
 }
 
+/*최종 결제 금액 26,000원 폰트 크기*/
 .final-info-price-title p:last-child {
 
     font-size: 1.7rem;
 }
 
+/*위 주문 내용을 확인~~~부분 */
 .pay-agree {
 
     padding: 0px 20px;
