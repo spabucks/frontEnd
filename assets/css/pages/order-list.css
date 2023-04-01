@@ -11,15 +11,18 @@
 }
 
 .order-list-page-date {
+  
+  display: flex;
+  justify-content: space-between;
   margin-left: 20px;
   font-size: 1.1rem;
 }
 
-.order-list-page-date {
+/*.order-list-page-date {
 
   display: flex;
   justify-content: space-between;
-}
+}*/
 
 .order-img img {
   transform: rotate(270deg);
