@@ -7,8 +7,10 @@
 
 .goods-stocked-list {
 
-  text-align: center;
-  margin-top: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
 }
 
 .goods-stocked-list-guide-form{
