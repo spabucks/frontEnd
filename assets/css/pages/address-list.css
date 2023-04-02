@@ -10,7 +10,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*padding: 25px;*/
   margin-bottom: -40px;
 }
 
@@ -67,4 +66,10 @@
 .address-phone-number {
 
   color: rgb(117, 114, 114);
+}
+
+.border-line{
+
+  border:solid 1px #e2e2e2;
+  margin: 20px 20px;
 }
