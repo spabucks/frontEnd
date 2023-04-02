@@ -1,0 +1,70 @@
+.pay-address-info-list-form {
+  padding: 20px;
+  font-size: 1.2rem;
+  line-height: 13px;
+  margin-top: -40px;
+  margin-bottom: -40px;
+}
+
+.pay-address-info-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*padding: 25px;*/
+  margin-bottom: -40px;
+}
+
+.pay-address-info-list p {
+
+  line-height: 25px;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.pay-address-info-list-form p {
+
+  line-height: 25px;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.order-list-line {
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.pay-address-info-list p {
+
+  font-size: 0.9rem;
+  color: rgb(141, 140, 140);
+  margin-top: 10px;
+}
+
+.order-list-detail-form{
+
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+
+.order-list-title {
+  font-size: 0.8rem;
+  color: rgb(44, 123, 76);
+  background-color: rgb(185 229 204);
+  height: 1.4rem;
+  width: 2.3rem;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.address-change{
+
+  margin: 20px 40px;
+}
+
+.address-phone-number {
+
+  color: rgb(117, 114, 114);
+}
